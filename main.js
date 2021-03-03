@@ -1,4 +1,4 @@
-//Task 1
+//Task 1 
 const userAge = prompt('сколько тебе лет?');
 const userGender = confirm('Если пол М - жми ок, Ж - отмена');
 
@@ -24,11 +24,19 @@ if(userAge>60 && userGender === true) {
 }
 
 
+// Task 2 
+
+const user = {
+    firstName:"",
+    age:"",
+    gender:""
+};
 
 
+user.firstName = prompt("как тебя зовут?");
+user.age = prompt("сколько тебе лет?");
+user.gender = prompt("твой пол?");
 
 
-
-
-
+console.log(user);
 
